@@ -89,3 +89,57 @@ img {
 .card-body > h5 {
     color: #ce9563;
 }
+
+ /* products */
+
+ .nav {
+    background-color: #FFF !important
+}
+
+.navbar-light .navbar-brand {
+    color: #e0b48e;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #e0b48e;
+}
+
+form {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+img {
+    width: 70%;
+}
+
+.footer {
+    height: 100px;
+    width: 100vw;
+    margin-left: -15px;
+}
+
+.socialIcons {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+.card {
+    border: none !important;
+}
+
+button {
+    margin-bottom: 10px !important;
+} 
