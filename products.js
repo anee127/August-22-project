@@ -5,12 +5,28 @@ $(document).ready(function() {
         $("html, body").animate({ scrollTop: 0 });
         return false;
     });
-
-    // Turn Add to favorite button (heart icon) into red
-    $('.fa-inverse').hover(function(){
-        $(this).toggleClass("text-danger");
-    });
-    $('.fa-inverse').click(function(){
-        $(this).focus();
-    });
 });
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    if($(window).width() < 993 && $( "#multiCollapse" ).hasClass( "show" )) {
+        $( "#multiCollapse" ).removeClass( "show" )
+    }
+} else {
+    if($(window).width() < 993 && $( "#multiCollapse" ).hasClass( "show" )) {
+        $( "#multiCollapse" ).removeClass( "show" )
+    }
+
+    if($(window).width() > 993 && !$( "#multiCollapse" ).hasClass( "show" )) {
+        $( "#multiCollapse" ).addClass( "show" )
+    }
+
+    $( window ).resize(function() {
+        if($(window).width() < 993 && $(window).width() > 576 && $( "#multiCollapse" ).hasClass( "show" )) {
+            $( "#multiCollapse" ).removeClass( "show" )
+        }
+
+        if($(window).width() > 993 && $(window).width() > 576 && !$( "#multiCollapse" ).hasClass( "show" )) {
+            $( "#multiCollapse" ).addClass( "show" )
+        }
+    });
+}
