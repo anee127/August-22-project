@@ -43,31 +43,31 @@
                         data-target=".multi-collapse" aria-expanded="false"
                         aria-controls="multiCollapse">Filter</button>
                     <div class="collapse show multi-collapse" id="multiCollapse">
-                        <h5>Select brand</h5>
+                        <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Sort</button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="#">Price</a>
+                              <a href="#">Size</a>
+                              <a href="#">Colour</a>
+                            </div>
+                          </div>
+                        <h5>Department</h5>
                         <form>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Birkenstock</label>
+                                <label class="form-check-label" for="exampleCheck1">Mens</label>
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                                <label class="form-check-label" for="exampleCheck2">Fly London</label>
+                                <label class="form-check-label" for="exampleCheck2">Womens</label>
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck3">
-                                <label class="form-check-label" for="exampleCheck3">Havainas</label>
-                            </div>
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck4">
-                                <label class="form-check-label" for="exampleCheck4">Onlineshoe</label>
-                            </div>
-                            <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck5">
-                                <label class="form-check-label" for="exampleCheck5">Reef</label>
+                                <label class="form-check-label" for="exampleCheck3">Childrens</label>
                             </div>
                         </form>
                         <br>
-                        <h5>Select colour</h5>
+                        <h5>colour</h5>
                         <form>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck6">
@@ -91,7 +91,7 @@
                             </div>
                         </form>
                         <br>
-                        <h5>Select price</h5>
+                        <h5>price</h5>
                         <form>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck11">
@@ -122,7 +122,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="shoes/mens-1.jpg" />
+                                    <img src="media/shoes1.jpg" />
                                     <h5 class="card-title">FLY LONDON</h5>
                                     <p class="card-text">£75.00</p>
                                 </div>
@@ -131,7 +131,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="shoes/mens-4.jpg" />
+                                    <img src="media/shoes2.jpg" />
                                     <h5 class="card-title">ONLINESHOE</h5>
                                     <p class="card-text">£20.00</p>
                                 </div>
@@ -140,7 +140,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="shoes/womans-1.jpg" />
+                                    <img src="media/shoes3.jpg" />
                                     <h5 class="card-title">ONLINESHOE</h5>
                                     <p class="card-text">£40.00</p>
                                 </div>
@@ -152,7 +152,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="shoes/mens-1.jpg" />
+                                    <img src="media/shoes4.jpg" />
                                     <h5 class="card-title">FLY LONDON</h5>
                                     <p class="card-text">£75.00</p>
                                 </div>
@@ -161,7 +161,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="shoes/mens-4.jpg" />
+                                    <img src="media/shoes5.jpg" />
                                     <h5 class="card-title">ONLINESHOE</h5>
                                     <p class="card-text">£20.00</p>
                                 </div>
@@ -170,7 +170,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="shoes/womans-1.jpg" />
+                                    <img src="media/shoes6.jpg" />
                                     <h5 class="card-title">ONLINESHOE</h5>
                                     <p class="card-text">£40.00</p>
                                 </div>
@@ -182,7 +182,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="shoes/mens-1.jpg" />
+                                    <img src="media/shoes7.jpg" />
                                     <h5 class="card-title">FLY LONDON</h5>
                                     <p class="card-text">£75.00</p>
                                 </div>
@@ -191,7 +191,7 @@
                         <div class="col-sm-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="shoes/mens-4.jpg" />
+                                    <img src="media/shoes8.jpg" />
                                     <h5 class="card-title">ONLINESHOE</h5>
                                     <p class="card-text">£20.00</p>
                                 </div>
@@ -200,7 +200,37 @@
                         <div class="col-sm-12 col-md-4 col-lg-4">
                             <div class="card">
                                 <div class="card-body">
-                                    <img src="shoes/womans-1.jpg" />
+                                    <img src="media/shoes9.jpg" />
+                                    <h5 class="card-title">ONLINESHOE</h5>
+                                    <p class="card-text">£40.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="media/shoes10.jpg" />
+                                    <h5 class="card-title">FLY LONDON</h5>
+                                    <p class="card-text">£75.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="media/shoes11.jpg" />
+                                    <h5 class="card-title">ONLINESHOE</h5>
+                                    <p class="card-text">£20.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="media/shoes12.jpg" />
                                     <h5 class="card-title">ONLINESHOE</h5>
                                     <p class="card-text">£40.00</p>
                                 </div>
@@ -209,6 +239,7 @@
                     </div>
                 </div>
             </div>
+
 
             <a class="text-center" id="back-to-top" href="#">
                 <div class="h-100 shadow-sm rounded-0 d-flex justify-content-center align-items-center">
@@ -233,7 +264,7 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
                 integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
                 crossorigin="anonymous"></script>
-            <script src="products.js"></script>
+            <script src="index.js"></script>
 
             <script>
                 $(document).ready(function () {
@@ -247,7 +278,7 @@
                             }, 800, function () {
                                 window.location.hash = hash;
                             });
-                        } 
+                        }
                     });
                 });
             </script>
