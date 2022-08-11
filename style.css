@@ -1,0 +1,91 @@
+.nav {
+    background-color: #FFF !important
+}
+
+.navbar-light .navbar-brand {
+    color: #ce9563;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ce9563;
+}
+
+.jumbotron {
+    color: #e0b48e;
+    background-image: url("jumbotron-img-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    padding: 0px 0px !important;
+}
+
+.innerJumbo {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.btn-outline-secondary {
+    color: #e0b48e;
+    border-color: #e0b48e;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #e0b48e;
+    border-color: #e0b48e;
+}
+
+.callToAction {
+        padding-top: 18%;
+    padding-bottom: 18%;
+}
+
+.callToAction > h5 {
+    font-size: 60px;
+}
+
+.subHeading {
+    text-align: center;
+}
+
+.subHeading > h5 {
+    font-size: 36px;
+    color: #ce9563;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+img {
+    width: 70%;
+}
+
+.footer {
+    height: 100px;
+}
+
+.socialIcons {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+.card {
+    border: none;
+}
+
+.services {
+    border: 2px solid #e0b48e;
+}
+
+.card-body > h5 {
+    color: #ce9563;
+}
