@@ -4,8 +4,9 @@
     font-family: 'Anton', sans-serif !important;
 }
 
-.nav {
-    background-color: #FFF !important; 
+.navbar {
+    color: #fa9500;
+    background-color: #FFF; 
 }
 
 .navbar-light .navbar-brand {
@@ -89,7 +90,7 @@ img {
 }
 
 .services {
-    border: 2px solid #e0b48e;
+    border: 2px solid #ffdac6;
 }
 
 .card-body > h5 {
@@ -153,7 +154,7 @@ img {
     opacity: 0.8;
  }
  form .close {
-    background-color: red;
+    background-color: #ffdac6;
  }
  form .btn:hover, .openChatBtn:hover {
     opacity: 1;
@@ -191,7 +192,7 @@ input[type=text], input[type=password] {
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #f44336;
+    background-color: #ffdac6;
   }
   
   /* Center the avatar image inside this container */
@@ -229,18 +230,6 @@ input[type=text], input[type=password] {
   }
 
  /* products */
-
-.nav {
-    background-color: #FFF !important;
-}
-
-.navbar-light .navbar-brand {
-    color: #e0b48e;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #e0b48e;
-}
 
 form {
     text-align: center;
