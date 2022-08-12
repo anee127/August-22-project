@@ -9,15 +9,15 @@
 }
 
 .navbar-light .navbar-brand {
-    color: #ce9563;
+    color: #fa9500;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #ce9563;
+    color: #fa9500; 
 }
 
 .jumbotron {
-    color: #e0b48e;
+    color: #fa9500;
     background-image: url("media/shoesHero.jpg");
     background-size: cover;
     background-position: center center;
