@@ -80,11 +80,6 @@ img {
     height: 100px;
 }
 
-.socialIcons {
-    text-align: center;
-    font-size: 3em;
-    padding-top: 20px;
-}
 
 .card {
     border: none;
@@ -248,6 +243,11 @@ h5 {
     margin-top: 10px;
 }
 
+.btn-two {
+  color: #7C6A0A;
+  border: solid;
+}
+
 img {
     width: 70%;
 }
@@ -256,12 +256,18 @@ img {
     height: 100px;
     width: 100vw;
     margin-left: -15px;
+    color: #7c6a0a !important;
 }
 
 .social {
     text-align: center;
-    font-size: 5em;
+    font-size: 20px;
     padding-top: 20px;
+    
+}
+
+.icon {
+  color: #7C6A0A;
 }
 
 .card {
@@ -272,28 +278,25 @@ button {
     margin-bottom: 10px !important;
 } 
 
-/* Dropdown Button */
 .dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+  background-color: #babd8d;
+  color: white;
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
   }
   
-  /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #babd8d;
   }
   
-  /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
     position: absolute;
@@ -303,7 +306,6 @@ button {
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -311,18 +313,20 @@ button {
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: #ddd}
   
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
 
 #back-to-top {
-    background-color: rgba(178, 103, 94, 0.7);
+    background-color: #FA9500;
     height: 42px;
     width: 42px;
     position: fixed;
     bottom: 10vh;
     right: 10px;
     cursor: pointer;
+}
+
+.up {
+  color: #f1f1f1;
 }
