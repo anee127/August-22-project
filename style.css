@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 * {
-    font-family: 'Anton', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 .navbar {
@@ -266,7 +266,7 @@ img {
     
 }
 
-.icon {
+.brand {
   color: #7C6A0A;
 }
 
